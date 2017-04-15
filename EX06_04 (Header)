@@ -1,0 +1,19 @@
+#indef Circle_H
+#define Cirble_H
+
+class Circle
+{
+private:
+  double radius;
+  static int NumberOfObjects;
+  
+public:
+  Circle();
+  Circle(double);
+  double getArea() const;
+  double getRadius() const;
+  void setRadius(double);
+  static int getBumberofObjects();
+};
+
+#endif
