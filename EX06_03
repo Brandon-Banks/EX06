@@ -1,0 +1,25 @@
+#include "babyname.h"
+#include <iostream>
+#include <vector>
+#include <fstream>
+using namespace std;
+
+int main() 
+{
+	ifstream names2011("babynameranking2011.txt");
+	vector<babyname> male2011;
+	vector<babyname> female2011
+
+	while (!names2011.eof())
+	{
+		int rank;
+		string mname, fname;
+		int number;
+    
+		names2011 >> rank >> mname >> number >> fname >> number;
+		BabyName male(mname, rank), female(fname, rank);
+		male2011.push_back(male);
+		female2011.push_back(female);
+	}
+
+}
