@@ -13,12 +13,12 @@ int main()
 
 	ifstream file(filename.c_str());
 
-	char c;
+	char u;
 	int charcnt = 0;
 
 	while (!file.eof())
 	{
-		file >> c;
+		file >> u;
 		charcnt++;
 	}
 
