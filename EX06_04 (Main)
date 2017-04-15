@@ -1,0 +1,52 @@
+#include <iostream>
+#include <vector>
+#include <ctime>
+#include <bool>
+#include <fstream>
+using namespace std;
+
+class Circle
+{
+private:
+double radius;
+
+public:
+radius 1;
+}
+
+int main()
+{
+
+bool operator<(Circle c1, CIrcle c2)
+{
+return (c1.compareTo(c2) < 0);
+}
+
+bool operator<=(Circle c1, CIrcle c2)
+{
+return (c1.compareTo(c2) <= 0);
+}
+
+bool operator>(Circle c1, CIrcle c2)
+{
+return (c1.compareTo(c2) > 0);
+}
+
+bool operator>=(Circle c1, CIrcle c2)
+{
+return (c1.compareTo(c2) >= 0);
+}
+
+bool operator==(Circle c1, CIrcle c2)
+{
+return (c1.compareTo(c2) == 0);
+}
+
+bool operator!=(Circle c1, CIrcle c2)
+{
+return (c1.compareTo(c2) != 0);
+}
+
+return 0;
+
+};
