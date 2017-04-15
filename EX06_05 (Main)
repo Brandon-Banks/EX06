@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+#include <ctime>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int a;
+	int b;
+	int c;
+	int d;
+
+	cout << "Complex Number 1: " << endl;
+	cin >> a >> b;
+
+	cout << "Complex Number 2: " << endl;
+	cin >> c >> d;
+
+	const Complex toaster(a, b);
+	const Complex eggsalad(c, d);
+
+	int operator add(const Complex toaster(), const Complex eggsalad());
+	int operator subtract(const Complex toaster(), const Complex eggsalad());
+	int operator multiply(const Complex toaster(), const Complex eggsalad());
+	int operator divide(const Complex toaster(), const Complex eggsalad());
+
+	cout << toaster.toString();
+	cout << eggsalad.toString();
+
+	return 0;
+}
